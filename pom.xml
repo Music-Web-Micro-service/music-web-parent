@@ -13,6 +13,13 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>music-web-parent</name>
     <description>music-web-parent</description>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Music-Web-Micro-service</name>  <!-- 改 OWNER -->
+            <url>https://maven.pkg.github.com/Music-Web-Micro-service/music-web-parent</url>  <!-- 改 OWNER、REPOSITORY -->
+        </repository>
+    </distributionManagement>
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2022.0.2</spring-cloud.version>
