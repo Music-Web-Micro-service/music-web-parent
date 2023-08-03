@@ -19,7 +19,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Build with Maven
-        run: mvn clean package -B
+        run: mvn clean compile package verify -B
 
       - name: Log in to GitHub Packages
         run: echo "${{ secrets.TOKEN }}" | gh auth login --with-token
