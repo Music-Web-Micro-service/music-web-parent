@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.freemusic</groupId>
     <artifactId>music-web-parent</artifactId>
-    <version>0.0.1-RELEASE</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>music-web-parent</name>
     <description>music-web-parent</description>
     <distributionManagement>
